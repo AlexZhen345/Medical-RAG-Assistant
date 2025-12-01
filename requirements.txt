@@ -1,0 +1,22 @@
+# --- 核心 AI 引擎 ---
+# 你的环境里这些版本非常新，为了稳妥，我们锁定这个版本
+torch==2.9.0
+transformers==4.57.1
+accelerate==1.11.0
+
+# --- RAG 与 向量检索 ---
+sentence-transformers==5.1.2
+faiss-gpu==1.7.2
+
+# --- Web 界面 ---
+gradio==6.0.0
+
+# --- 数据处理与验证器 ---
+pandas==2.3.3
+numpy==1.26.4
+openpyxl==3.1.5
+scikit-learn==1.7.2
+joblib==1.5.2
+
+# --- 模型下载 ---
+modelscope==1.31.0

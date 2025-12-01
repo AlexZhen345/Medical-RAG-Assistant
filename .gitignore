@@ -1,0 +1,23 @@
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 大模型文件夹 (千万不能传！)
+merged_qwen3_medical/
+models/
+
+# 生成的索引和临时文件
+rag_index_optimized/
+verifier_model.pkl
+*.log
+
+# 虚拟环境
+venv/
+.env
+
+# IDE 配置
+.vscode/
+.idea/
+
+# 临时文件
+gradio_temp/
